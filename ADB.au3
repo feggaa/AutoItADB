@@ -1,3 +1,14 @@
+; #INDEX# =======================================================================================================================
+; Title .........: ADB UDF v1.0
+; AutoIt Version : 3.3
+; Language ......: English , Arabic
+; Description ...: Improved ADB library for AutoIt.
+; Author(s) .....: Rabi3 Feggaa
+; GitHub ........: https://github.com/R3Pro/AutoItADB/
+; License .......: LGPL-2.1 License
+; ===============================================================================================================================
+#include "AutoItObject.au3"
+
 #include-once
 
 
