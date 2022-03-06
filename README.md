@@ -1,2 +1,2 @@
 # AutoItADB - AutoItObject
-Adb Protocol TCP/IP For AutoIt
+Adb Protocol TCP/IP Without adb.exe For AutoIt
