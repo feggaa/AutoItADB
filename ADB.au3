@@ -47,10 +47,10 @@ EndFunc
 
 
 Func __ADB_Device_Startup($This)
-	Return ShellExecute(@ScriptDir&'/adb/adb.exe','start-server', @ScriptDir, 'open', @SW_HIDE)
+	Return ShellExecute(@ScriptDir&'/adb.exe','start-server', @ScriptDir, 'open', @SW_HIDE)
 EndFunc
 Func __ADB_Device_Shutdown($This)
-	Return ShellExecute(@ScriptDir&'/adb/adb.exe','kill-server', @ScriptDir, 'open', @SW_HIDE)
+	Return ShellExecute(@ScriptDir&'/adb.exe','kill-server', @ScriptDir, 'open', @SW_HIDE)
 EndFunc
 
 Func __ADB_Device_Scan($This)
